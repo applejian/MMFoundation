@@ -6,7 +6,7 @@
 //  Copyright © 2016 Mobile Maultaschen. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+@import Cocoa;
 
 //! Project version number for MMFoundation_OSX.
 FOUNDATION_EXPORT double MMFoundation_OSXVersionNumber;

@@ -1,12 +1,4 @@
-//
-//  MMFoundation.h
-//  MMFoundation
-//
-//  Created by Florian Bürger on 2/8/16.
-//  Copyright © 2016 Mobile Maultaschen. All rights reserved.
-//
-
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for MMFoundation.
 FOUNDATION_EXPORT double MMFoundationVersionNumber;

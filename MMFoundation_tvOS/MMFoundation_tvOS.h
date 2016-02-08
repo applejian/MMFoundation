@@ -6,7 +6,7 @@
 //  Copyright © 2016 Mobile Maultaschen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for MMFoundation_tvOS.
 FOUNDATION_EXPORT double MMFoundation_tvOSVersionNumber;

@@ -6,7 +6,7 @@
 //  Copyright © 2016 Mobile Maultaschen. All rights reserved.
 //
 
-#import <WatchKit/WatchKit.h>
+@import WatchKit;
 
 //! Project version number for MMFoundation_watchOS.
 FOUNDATION_EXPORT double MMFoundation_watchOSVersionNumber;
