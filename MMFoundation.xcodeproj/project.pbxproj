@@ -11,6 +11,12 @@
 		179973421C68C24C00415AFE /* MMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 179973411C68C24C00415AFE /* MMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		179973491C68C24C00415AFE /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1799733E1C68C24C00415AFE /* MMFoundation.framework */; };
 		1799734E1C68C24C00415AFE /* InitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799734D1C68C24C00415AFE /* InitTests.swift */; };
+		17C284051C68D39F00A1B0CE /* MMFoundation_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C284041C68D39F00A1B0CE /* MMFoundation_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C2840A1C68D3B500A1B0CE /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17270F711C68C7FB008602B4 /* Init.swift */; };
+		17C284131C68D3D200A1B0CE /* MMFoundation_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C284121C68D3D200A1B0CE /* MMFoundation_OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C284201C68D3E400A1B0CE /* MMFoundation_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C2841F1C68D3E400A1B0CE /* MMFoundation_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C284251C68D3F100A1B0CE /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17270F711C68C7FB008602B4 /* Init.swift */; };
+		17C284261C68D3F100A1B0CE /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17270F711C68C7FB008602B4 /* Init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,15 @@
 		179973481C68C24C00415AFE /* MMFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1799734D1C68C24C00415AFE /* InitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitTests.swift; sourceTree = "<group>"; };
 		1799734F1C68C24C00415AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C284021C68D39F00A1B0CE /* MMFoundation_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C284041C68D39F00A1B0CE /* MMFoundation_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_tvOS.h; sourceTree = "<group>"; };
+		17C284061C68D3A000A1B0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C284101C68D3D200A1B0CE /* MMFoundation_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C284121C68D3D200A1B0CE /* MMFoundation_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_OSX.h; sourceTree = "<group>"; };
+		17C284141C68D3D200A1B0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C2841D1C68D3E300A1B0CE /* MMFoundation_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMFoundation_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C2841F1C68D3E400A1B0CE /* MMFoundation_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoundation_watchOS.h; sourceTree = "<group>"; };
+		17C284211C68D3E400A1B0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17C283FE1C68D39F00A1B0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C2840C1C68D3D200A1B0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C284191C68D3E300A1B0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +93,9 @@
 			children = (
 				179973401C68C24C00415AFE /* MMFoundation */,
 				1799734C1C68C24C00415AFE /* MMFoundationTests */,
+				17C284031C68D39F00A1B0CE /* MMFoundation_tvOS */,
+				17C284111C68D3D200A1B0CE /* MMFoundation_OSX */,
+				17C2841E1C68D3E400A1B0CE /* MMFoundation_watchOS */,
 				1799733F1C68C24C00415AFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +105,9 @@
 			children = (
 				1799733E1C68C24C00415AFE /* MMFoundation.framework */,
 				179973481C68C24C00415AFE /* MMFoundationTests.xctest */,
+				17C284021C68D39F00A1B0CE /* MMFoundation_tvOS.framework */,
+				17C284101C68D3D200A1B0CE /* MMFoundation_OSX.framework */,
+				17C2841D1C68D3E300A1B0CE /* MMFoundation_watchOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +131,33 @@
 			path = MMFoundationTests;
 			sourceTree = "<group>";
 		};
+		17C284031C68D39F00A1B0CE /* MMFoundation_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				17C284041C68D39F00A1B0CE /* MMFoundation_tvOS.h */,
+				17C284061C68D3A000A1B0CE /* Info.plist */,
+			);
+			path = MMFoundation_tvOS;
+			sourceTree = "<group>";
+		};
+		17C284111C68D3D200A1B0CE /* MMFoundation_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				17C284121C68D3D200A1B0CE /* MMFoundation_OSX.h */,
+				17C284141C68D3D200A1B0CE /* Info.plist */,
+			);
+			path = MMFoundation_OSX;
+			sourceTree = "<group>";
+		};
+		17C2841E1C68D3E400A1B0CE /* MMFoundation_watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				17C2841F1C68D3E400A1B0CE /* MMFoundation_watchOS.h */,
+				17C284211C68D3E400A1B0CE /* Info.plist */,
+			);
+			path = MMFoundation_watchOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,6 +166,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				179973421C68C24C00415AFE /* MMFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C283FF1C68D39F00A1B0CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C284051C68D39F00A1B0CE /* MMFoundation_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C2840D1C68D3D200A1B0CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C284131C68D3D200A1B0CE /* MMFoundation_OSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C2841A1C68D3E300A1B0CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C284201C68D3E400A1B0CE /* MMFoundation_watchOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +232,60 @@
 			productReference = 179973481C68C24C00415AFE /* MMFoundationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		17C284011C68D39F00A1B0CE /* MMFoundation_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C284091C68D3A000A1B0CE /* Build configuration list for PBXNativeTarget "MMFoundation_tvOS" */;
+			buildPhases = (
+				17C283FD1C68D39F00A1B0CE /* Sources */,
+				17C283FE1C68D39F00A1B0CE /* Frameworks */,
+				17C283FF1C68D39F00A1B0CE /* Headers */,
+				17C284001C68D39F00A1B0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMFoundation_tvOS;
+			productName = MMFoundation_tvOS;
+			productReference = 17C284021C68D39F00A1B0CE /* MMFoundation_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17C2840F1C68D3D200A1B0CE /* MMFoundation_OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C284151C68D3D200A1B0CE /* Build configuration list for PBXNativeTarget "MMFoundation_OSX" */;
+			buildPhases = (
+				17C2840B1C68D3D200A1B0CE /* Sources */,
+				17C2840C1C68D3D200A1B0CE /* Frameworks */,
+				17C2840D1C68D3D200A1B0CE /* Headers */,
+				17C2840E1C68D3D200A1B0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMFoundation_OSX;
+			productName = MMFoundation_OSX;
+			productReference = 17C284101C68D3D200A1B0CE /* MMFoundation_OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17C2841C1C68D3E300A1B0CE /* MMFoundation_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C284221C68D3E400A1B0CE /* Build configuration list for PBXNativeTarget "MMFoundation_watchOS" */;
+			buildPhases = (
+				17C284181C68D3E300A1B0CE /* Sources */,
+				17C284191C68D3E300A1B0CE /* Frameworks */,
+				17C2841A1C68D3E300A1B0CE /* Headers */,
+				17C2841B1C68D3E300A1B0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMFoundation_watchOS;
+			productName = MMFoundation_watchOS;
+			productReference = 17C2841D1C68D3E300A1B0CE /* MMFoundation_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +301,15 @@
 					};
 					179973471C68C24C00415AFE = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					17C284011C68D39F00A1B0CE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					17C2840F1C68D3D200A1B0CE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					17C2841C1C68D3E300A1B0CE = {
+						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
@@ -171,6 +327,9 @@
 			targets = (
 				1799733D1C68C24C00415AFE /* MMFoundation */,
 				179973471C68C24C00415AFE /* MMFoundationTests */,
+				17C284011C68D39F00A1B0CE /* MMFoundation_tvOS */,
+				17C2840F1C68D3D200A1B0CE /* MMFoundation_OSX */,
+				17C2841C1C68D3E300A1B0CE /* MMFoundation_watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +343,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		179973461C68C24C00415AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C284001C68D39F00A1B0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C2840E1C68D3D200A1B0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C2841B1C68D3E300A1B0CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +386,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				1799734E1C68C24C00415AFE /* InitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C283FD1C68D39F00A1B0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C2840A1C68D3B500A1B0CE /* Init.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C2840B1C68D3D200A1B0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C284251C68D3F100A1B0CE /* Init.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C284181C68D3E300A1B0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C284261C68D3F100A1B0CE /* Init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +568,126 @@
 			};
 			name = Release;
 		};
+		17C284071C68D3A000A1B0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MMFoundation_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.maultaschen.MMFoundation-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		17C284081C68D3A000A1B0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MMFoundation_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.maultaschen.MMFoundation-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		17C284161C68D3D200A1B0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MMFoundation_OSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.maultaschen.MMFoundation-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17C284171C68D3D200A1B0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MMFoundation_OSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.maultaschen.MMFoundation-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17C284231C68D3E400A1B0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MMFoundation_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.maultaschen.MMFoundation-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		17C284241C68D3E400A1B0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MMFoundation_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.maultaschen.MMFoundation-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -393,6 +717,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		17C284091C68D3A000A1B0CE /* Build configuration list for PBXNativeTarget "MMFoundation_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C284071C68D3A000A1B0CE /* Debug */,
+				17C284081C68D3A000A1B0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C284151C68D3D200A1B0CE /* Build configuration list for PBXNativeTarget "MMFoundation_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C284161C68D3D200A1B0CE /* Debug */,
+				17C284171C68D3D200A1B0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C284221C68D3E400A1B0CE /* Build configuration list for PBXNativeTarget "MMFoundation_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C284231C68D3E400A1B0CE /* Debug */,
+				17C284241C68D3E400A1B0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

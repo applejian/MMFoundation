@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
-   version = "1.8">
+   LastUpgradeVersion = "0720"
+   version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -11,13 +11,12 @@
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "YES"
-            hideIssues = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1799733D1C68C24C00415AFE"
-               BuildableName = "MMFoundation.framework"
-               BlueprintName = "MMFoundation"
+               BlueprintIdentifier = "17C2840F1C68D3D200A1B0CE"
+               BuildableName = "MMFoundation_OSX.framework"
+               BlueprintName = "MMFoundation_OSX"
                ReferencedContainer = "container:MMFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "179973471C68C24C00415AFE"
-               BuildableName = "MMFoundationTests.xctest"
-               BlueprintName = "MMFoundationTests"
-               ReferencedContainer = "container:MMFoundation.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1799733D1C68C24C00415AFE"
-            BuildableName = "MMFoundation.framework"
-            BlueprintName = "MMFoundation"
-            ReferencedContainer = "container:MMFoundation.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -65,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1799733D1C68C24C00415AFE"
-            BuildableName = "MMFoundation.framework"
-            BlueprintName = "MMFoundation"
+            BlueprintIdentifier = "17C2840F1C68D3D200A1B0CE"
+            BuildableName = "MMFoundation_OSX.framework"
+            BlueprintName = "MMFoundation_OSX"
             ReferencedContainer = "container:MMFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1799733D1C68C24C00415AFE"
-            BuildableName = "MMFoundation.framework"
-            BlueprintName = "MMFoundation"
+            BlueprintIdentifier = "17C2840F1C68D3D200A1B0CE"
+            BuildableName = "MMFoundation_OSX.framework"
+            BlueprintName = "MMFoundation_OSX"
             ReferencedContainer = "container:MMFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
